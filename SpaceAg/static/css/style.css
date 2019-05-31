@@ -1,0 +1,14 @@
+.header {
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+  background: #337ab7;
+  color: white;
+  font-size: 40px;
+}
+
+.content {padding:20px;}
+
+.header > p{
+  text-align: center;
+  font-size: 18px;
+}

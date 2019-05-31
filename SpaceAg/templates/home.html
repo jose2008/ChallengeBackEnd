@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	{% load static%}
+	<link href=" {% static '/bootstrap/css/bootstrap.css'%}" rel="stylesheet">
+
+	{% load static%}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css'%}">
+</head>
+<body>
+<div class="header">
+  <p>SPACE AG</p>
+  <a href="/login" class="btn btn-info btn-lg" style="float: right;">
+          <span class="glyphicon glyphicon-log-out"></span> Log out
+        </a>
+</div>
+
+
+<div class="jumbotron">
+  <h1 class="display-4">Hello, {{var}}!</h1>
+  <hr class="my-4">
+  <p class="lead">
+  </p>
+</div>
+
+
+
+
+</body>
+</html>
